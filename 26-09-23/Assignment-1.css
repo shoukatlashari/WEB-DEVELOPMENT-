@@ -1,0 +1,55 @@
+  h1 {
+      color: blue;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .b11 {
+      color: green;
+      justify-content: center;
+      display: flex;
+  }
+  
+  .list {
+      justify-content: center;
+      display: flex;
+      list-style: none;
+  }
+  
+  li {
+      padding-left: 10px;
+  }
+  
+  h3 {
+      color: blue;
+      display: flex;
+      justify-content: center;
+  }
+  
+  th,
+  td {
+      justify-content: center;
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  
+  th {
+      background-color: green;
+  }
+  
+  td {
+      background-color: yellowgreen;
+  }
+  
+  h4 {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .tr {
+      background-color: blue;
+  }
+  
+  .ca {
+      background-color: none;
+  }

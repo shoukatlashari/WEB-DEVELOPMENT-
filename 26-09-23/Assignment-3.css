@@ -1,0 +1,46 @@
+.td {
+    background-color: greenyellow;
+}
+
+.ts {
+    background-color: yellow;
+}
+
+h1 {
+    color: blue;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    color: green;
+    justify-content: center;
+    display: flex;
+}
+
+h3 {
+    color: blue;
+    justify-content: center;
+    display: flex;
+}
+
+.table {
+    justify-content: center;
+    display: flex;
+    border-collapse: collapse;
+}
+
+h4 {
+    justify-content: center;
+    display: flex;
+}
+
+.list {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-left: 10px;
+}
