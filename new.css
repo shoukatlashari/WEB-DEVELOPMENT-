@@ -1,0 +1,28 @@
+.box {
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    border-color: green;
+    flex: 100px;
+}
+
+.flex-container {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box3 {
+    background-color: red;
+    align-self: baseline;
+    flex-grow: 3;
+}
+
+.box6 {
+    background-color: aqua;
+    align-self: last baseline;
+}
