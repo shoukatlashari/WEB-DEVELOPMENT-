@@ -1,0 +1,55 @@
+    BODY {
+        height: 95vh;
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        grid-gap: 10px;
+        color: white;
+        font-size: 2em;
+    }
+    
+    header {
+        background: green;
+        text-align: center;
+        padding: 2em;
+    }
+    
+    main {
+        background: blue;
+        text-align: center;
+        padding: 2em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    footer {
+        background: red;
+        text-align: center;
+        padding: 2em;
+    }
+    
+    .box1 {
+        background-color: black;
+    }
+    
+    .box2 {
+        background-color: aqua;
+    }
+    
+    .box3 {
+        background-color: blueviolet;
+    }
+    
+    .box4 {
+        background-color: cadetblue;
+    }
+    
+    .box5 {
+        background-color: rgb(160, 150, 95);
+    }
+    
+    .box6 {
+        background-color: rgb(160, 95, 139);
+    }
