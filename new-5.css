@@ -1,0 +1,54 @@
+li:nth-of-type(2) {
+    background-color: aqua;
+}
+
+ul:nth-child(1) {
+    background-color: blueviolet;
+}
+
+#blog h1 {
+    color: blue;
+}
+
+h1~p {
+    color: aqua;
+}
+
+#blog>h1 {
+    color: blueviolet;
+}
+
+.mypage {
+    background-color: chartreuse;
+}
+
+.wrapper {
+    color: green;
+    background-color: crimson;
+}
+
+.mypage:hover {
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+.mybutton:hover {
+    color: rgb(0, 0, 0);
+    background-color: black;
+}
+
+.text {
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text:hover {
+    overflow: visible;
+}
+
+.vert {
+    text-shadow: 0 0 30px green;
+}
