@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    grid-template-areas: "1" "2" "3";
+    grid-template-rows: 150px 100px 150px;
+    grid-template-columns: 190px;
+}
+
+header {
+    background: greenyellow;
+}

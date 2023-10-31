@@ -1,0 +1,62 @@
+ .main-con {
+     display: grid;
+     padding: 10px;
+     gap: 20px;
+     height: 100%;
+ }
+ 
+ .con1 {
+     background-color: green;
+     height: 120px;
+ }
+ 
+ .con2 {
+     background-color: whitesmoke;
+     display: grid;
+     gap: 10px;
+     grid-template-columns: 1fr 1fr 1fr;
+     height: 350px;
+ }
+ 
+ .con3 {
+     background-color: white;
+     display: grid;
+     gap: 10px;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     height: 120px;
+ }
+ 
+ .con2-1 {
+     background-color: blue;
+ }
+ 
+ .con2-2 {
+     background-color: blue;
+ }
+ 
+ .con2-3 {
+     background-color: blue;
+ }
+ 
+ .con3-1 {
+     background-color: darkgrey;
+ }
+ 
+ .con3-2 {
+     background-color: darkgrey;
+ }
+ 
+ .con3-3 {
+     background-color: darkgrey;
+ }
+ 
+ .con3-4 {
+     background-color: darkgrey;
+ }
+ 
+ @media(max-width: 952px) {
+     labe1.logo {
+         font-size: 30px;
+         padding: 50px;
+     }
+ }

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.checkbox-row {
+    display: grid;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    text-emphasis-color: white;
+    background-attachment: fixed;
+    text-decoration-color: brown;
+    content-visibility: 100px;
+    padding-left: -200px;
+    padding-right: -200px;
+}
